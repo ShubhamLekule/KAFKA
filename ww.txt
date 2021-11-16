@@ -1,0 +1,23 @@
+ShubhamLekule@DESKTOP-HAKGGQO MINGW64 /d/GIT/Kafka (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ShubhamLekule/KAFKA.git'
+
+ShubhamLekule@DESKTOP-HAKGGQO MINGW64 /d/GIT/Kafka (main)
+$ git add .
+
+ShubhamLekule@DESKTOP-HAKGGQO MINGW64 /d/GIT/Kafka (main)
+$ git commit -m "test text file"
+[main (root-commit) cf7dcd5] test text file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ww.txt
+
+ShubhamLekule@DESKTOP-HAKGGQO MINGW64 /d/GIT/Kafka (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 221.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ShubhamLekule/KAFKA.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
